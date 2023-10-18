@@ -1,4 +1,4 @@
-Esse sistema lida com informações de clientes, contas bancárias e movimentações bancárias. A estrutura geral do código principal.py e suas principais funções que consistem em:
+O programa lida com informações de clientes, contas bancárias e movimentações bancárias. A estrutura geral do código principal.py e suas principais funções consistem em:
 
 **Importação de Módulos**:
 
@@ -12,11 +12,11 @@ Depois das importações, são criadas instâncias de várias classes, como `Spl
 
 O código define quatro funções principais: `reports`, `inserir`, `atualizar`, e `excluir`. Cada uma dessas funções aceita um argumento `opcao` que determina qual funcionalidade do sistema será acionada.
 
-`reports(opcao_relatorio)`: Esta função gera relatórios com base na opção selecionada. Dependendo do valor de `opcao_relatorio`, ela chama diferentes métodos do objeto `relatorio` para gerar relatórios sobre clientes, contas, movimentações, tipos de contas por cliente ou saldo e quantidade de movimentações por conta.
+`reports(opcao_relatorio)`: gera relatórios com base na opção selecionada. Dependendo do valor de `opcao_relatorio`, ela chama diferentes métodos do objeto `relatorio` para gerar relatórios sobre clientes, contas, movimentações, tipos de contas por cliente ou saldo e quantidade de movimentações por conta.
 
-inserir(opcao_inserir)`: Esta função permite a inserção de novos registros no sistema. Dependendo da opção selecionada, ela chama métodos de objetos como `ctrl_cliente`, `ctrl_conta`, ou `ctrl_movimentacao` para inserir um novo cliente, conta ou movimentação.
+inserir(opcao_inserir)`: permite a inserção de novos registros no sistema. Dependendo da opção selecionada, ela chama métodos de objetos como `ctrl_cliente`, `ctrl_conta`, ou `ctrl_movimentacao` para inserir um novo cliente, conta ou movimentação.
 
-atualizar(opcao_atualizar)`: Esta função lida com a atualização de registros. Ela exibe relatórios (por meio do objeto `relatorio`) e permite a atualização de informações de clientes, contas ou movimentações.
+atualizar(opcao_atualizar)`: Responsavel com a atualização de registros. Ela exibe relatórios (por meio do objeto `relatorio`) e permite a atualização de informações de clientes, contas ou movimentações.
 
 `excluir(opcao_excluir)`: Similar às funções anteriores, esta função permite a exclusão de registros. Ela exibe relatórios e permite a exclusão de clientes, contas ou movimentações.
 
